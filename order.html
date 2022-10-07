@@ -49,25 +49,30 @@
             <option value="honeydew">Honeydew</option>
         </select>
         <div>
-            <span>When should we deliver?</span>
+            <label for="time">Who are we sending this to?</label>
 
-            <input id="am" type="radio" name="time" value="am">
+            <input type="radio" name="time" value="am">
             <label for="am">Morning</label>
 
-            <input id="pm" type="radio" name="time" value="pm">
+            <input type="radio" name="time" value="pm">
             <label for="pm">Evening</label>
 
-            <input id="any" type="radio" name="time" value="any">
+            <input type="radio" name="time" value="any">
             <label for="any-time">Any time</label>
         </div>
+        <label for="message">Enter your message:</label>
+        <textarea name="message" id="message"></textarea><br>
+        <label for="newsletter-checkbox">Subscribe to our newsletter</label>
+        <input type="checkbox" name="newsletter-checkbox" id="newsletter-checkbox"value="yes">yes<br>
+        <button type="submit">Submit</button>
+        
+        
     </form>
 
 
     
-    Enter your message:
+   
     
-    Subscribe to our newsletter
-    Yes
-    
+   
 </body>
 </html>
